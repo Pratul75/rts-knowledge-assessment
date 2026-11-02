@@ -1,0 +1,33 @@
+{
+ "title": "RTS Knowledge Assessment",
+ "duration_min": 60,
+ "salt": "40c05b2c9ab33ee41de1f9e87dacb9ab",
+ "questions": [
+  {
+   "id": "t1",
+   "section": "ATL Marketing Communication",
+   "text": "Placeholder question one?",
+   "options": [
+    "A opt",
+    "B opt",
+    "C opt",
+    "D opt"
+   ],
+   "marks": 2,
+   "h": "7f1e8b27ed1259dcadcc92b9e29e938e91ba8fd48542673b129e0124fdc0c5b7"
+  },
+  {
+   "id": "t2",
+   "section": "BTL Activation",
+   "text": "Placeholder question two?",
+   "options": [
+    "A opt",
+    "B opt",
+    "C opt",
+    "D opt"
+   ],
+   "marks": 2,
+   "h": "900cf460da13238477d7bef718d5988abed4937be217883315497920cf457e54"
+  }
+ ]
+}

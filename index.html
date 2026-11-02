@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RTS Knowledge Assessment</title>
+<meta name="description" content="Timed online assessment on the RTS presentation library for the Client Servicing Lead.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span><div>RTS Knowledge Assessment<small>Client Servicing Lead · 60 minutes · 100 marks</small></div></div>
+    <div id="timer" class="timer hidden">60:00</div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- START SCREEN -->
+  <section id="start" class="card">
+    <h1>Before you begin</h1>
+    <p class="muted">This test checks how thoroughly you have gone through the RTS presentation library (ATL communication, BTL activation, digital, events, GTM, PPT design, agency credentials and scripts).</p>
+    <ul class="rules">
+      <li><strong>Duration:</strong> 60 minutes. The timer starts when you press Start and cannot be paused.</li>
+      <li><strong>Marks:</strong> <span id="totalMarks">100</span> marks across <span id="totalQ">50</span> questions. Every question carries 2 marks. There is no negative marking.</li>
+      <li><strong>Format:</strong> single-answer multiple choice. You can move between questions freely and mark questions for review.</li>
+      <li><strong>Submission:</strong> the paper auto-submits when time runs out. Your answers are saved in this browser if the page reloads.</li>
+      <li><strong>One attempt:</strong> please do not refer to the decks or anyone else during the test.</li>
+    </ul>
+    <label class="field" for="name">Your full name</label>
+    <input type="text" id="name" placeholder="e.g. Priya Sharma" autocomplete="name">
+    <label class="field" for="email">Your email (optional, included in the result)</label>
+    <input type="text" id="email" placeholder="name@rechargestudio.com" autocomplete="email">
+    <div class="actions">
+      <button id="startBtn" class="btn primary">Start the test</button>
+    </div>
+    <div id="lockNotice" class="notice hidden"></div>
+  </section>
+
+  <!-- TEST SCREEN -->
+  <section id="test" class="hidden">
+    <div class="grid">
+      <div>
+        <div class="card">
+          <div class="qhead">
+            <div><span class="chip" id="qSection"></span> <span class="chip" id="qMarks">2 marks</span></div>
+            <div class="muted" id="qCount">Question 1 of 50</div>
+          </div>
+          <div class="qtext" id="qText"></div>
+          <div class="opts" id="opts"></div>
+          <div class="nav">
+            <div><button id="prevBtn" class="btn">← Previous</button></div>
+            <div class="right">
+              <button id="clearBtn" class="btn ghost">Clear answer</button>
+              <button id="markBtn" class="btn">Mark for review</button>
+              <button id="nextBtn" class="btn primary">Next →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="palette">
+        <div class="card">
+          <h2>Question palette</h2>
+          <div class="pal" id="pal"></div>
+          <div class="legend"><span class="a">Answered</span><span class="m">Marked for review</span><span>Not answered</span></div>
+          <div class="sections" id="secProgress"></div>
+          <div class="actions"><button id="submitBtn" class="btn primary" style="width:100%">Submit paper</button></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- RESULT SCREEN -->
+  <section id="result" class="card hidden">
+    <h1>Result</h1>
+    <p class="muted" id="resMeta"></p>
+    <div class="score"><div class="big" id="resScore">0</div><div class="of">/ <span id="resMax">100</span> marks · <span id="resPct">0%</span></div></div>
+    <table id="resTable"><thead><tr><th>Section</th><th class="num">Questions</th><th class="num">Correct</th><th class="num">Marks</th></tr></thead><tbody></tbody></table>
+    <h2 style="margin-top:22px">Send your result to the examiner</h2>
+    <p class="muted">Click the email button, or copy the result code and send it on WhatsApp. The code contains your answers and lets the examiner verify the score.</p>
+    <textarea class="code" id="resCode" readonly></textarea>
+    <div class="actions">
+      <button id="mailBtn" class="btn primary">Email result</button>
+      <button id="copyBtn" class="btn">Copy result code</button>
+    </div>
+  </section>
+
+  <!-- EXAMINER REVIEW -->
+  <section id="examiner" class="card hidden">
+    <h1>Examiner review</h1>
+    <p class="muted">Paste a candidate's result code and enter the examiner passphrase to verify the score and see the answer-by-answer breakdown.</p>
+    <label class="field" for="exCode">Result code</label>
+    <textarea class="code" id="exCode"></textarea>
+    <label class="field" for="exPass">Examiner passphrase</label>
+    <input type="text" id="exPass" placeholder="passphrase">
+    <div class="actions"><button id="exBtn" class="btn primary">Verify &amp; review</button><button id="exKeyBtn" class="btn">Show full answer key</button></div>
+    <div id="exOut" class="review"></div>
+  </section>
+
+</main>
+<footer>Recharge Studio · RTS presentation library assessment · <a href="?examiner=1">Examiner</a></footer>
+<script src="app.js"></script>
+</body>
+</html>
