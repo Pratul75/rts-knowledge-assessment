@@ -1,33 +1,657 @@
 {
  "title": "RTS Knowledge Assessment",
  "duration_min": 60,
- "salt": "40c05b2c9ab33ee41de1f9e87dacb9ab",
+ "salt": "4ab1ed926bff52d9b4fec659b426311b",
  "questions": [
   {
-   "id": "t1",
-   "section": "ATL Marketing Communication",
-   "text": "Placeholder question one?",
+   "id": "r01",
+   "section": "RTS Agency",
+   "text": "In the RTS Digivan model, what is the first thing a farmer does when the van arrives at a location?",
    "options": [
-    "A opt",
-    "B opt",
-    "C opt",
-    "D opt"
+    "Gives a missed call to a toll-free number",
+    "Sends a 4-digit code on WhatsApp to unlock a prize",
+    "Scans a QR code that opens a landing page and form",
+    "Fills a paper enquiry form collected by the promoter"
    ],
    "marks": 2,
-   "h": "7f1e8b27ed1259dcadcc92b9e29e938e91ba8fd48542673b129e0124fdc0c5b7"
+   "h": "bd8a87eebef995cb6066bd0838ee1b252a80e67bb1d21d280fdff9361d9e3499"
   },
   {
-   "id": "t2",
-   "section": "BTL Activation",
-   "text": "Placeholder question two?",
+   "id": "r02",
+   "section": "RTS Agency",
+   "text": "The RTS Digital Marketing Profile recommends what share of a brand's total marketing budget should go to digital marketing?",
    "options": [
-    "A opt",
-    "B opt",
-    "C opt",
-    "D opt"
+    "35% to 45%",
+    "60% to 70%",
+    "25% to 30%",
+    "10% to 20%"
    ],
    "marks": 2,
-   "h": "900cf460da13238477d7bef718d5988abed4937be217883315497920cf457e54"
+   "h": "3f63c0aa642e2edd80dc01483a6a7828d4cba17b355dc2f53108ee81cec7e448"
+  },
+  {
+   "id": "r03",
+   "section": "RTS Agency",
+   "text": "What annual revenue target does the RTS Business Plan for North America set?",
+   "options": [
+    "$1 million",
+    "$10 million",
+    "$25 million",
+    "$5 million"
+   ],
+   "marks": 2,
+   "h": "0a9934999d4ecbd8ec52127303ed1d7f102cb0b47d27e99646363bba52095205"
+  },
+  {
+   "id": "r04",
+   "section": "RTS Agency",
+   "text": "In the RTS BTL case-study deck, the Bayer Seminis Abhilash tomato 360-degree campaign (4 states, 90 days, nukkad nataks) met how many farmers?",
+   "options": [
+    "31,000",
+    "2,150",
+    "9,421",
+    "5,000"
+   ],
+   "marks": 2,
+   "h": "67cff5074cff895fcd7eb170699817c53b8bcb6f9095be5fa2d326af8af5c4c7"
+  },
+  {
+   "id": "r05",
+   "section": "RTS Agency",
+   "text": "In the Recharge Canada credentials deck, the agency's \"E-cube (E3)\" philosophy stands for:",
+   "options": [
+    "Efficient, Effective, Economical",
+    "Effective, Eccentric, Energetic",
+    "Engage, Educate, Entertain",
+    "Excellence, Experience, Execution"
+   ],
+   "marks": 2,
+   "h": "82401d5419de3727ec12dfb25bd2ea3fe683c7d4f7f67be13f17b2007c8047ad"
+  },
+  {
+   "id": "r06",
+   "section": "RTS Agency",
+   "text": "Which result do the RTS case-study decks attribute to the Porsche Design India account?",
+   "options": [
+    "43% increase in revenue within a 3-month campaign",
+    "5X return on ad spend from a virtual event",
+    "15% boost in brand recall",
+    "180% organic follower growth and 60% rise in dealership sales"
+   ],
+   "marks": 2,
+   "h": "0c57d31e7cfc301521cb8b4966686f93ca18ad49d2d9761a3390102f0c8b9240"
+  },
+  {
+   "id": "r07",
+   "section": "RTS Agency",
+   "text": "Souvnirs, the RTS group company co-founded by Kshitij Shivprasad, is a platform for what?",
+   "options": [
+    "Farmer data and lead management",
+    "Restaurant marketing automation",
+    "Bulk corporate gifting",
+    "Online Vedic astrology courses"
+   ],
+   "marks": 2,
+   "h": "116746abb89e34d4248ce5850c9685e523e6817e2e719f99a854eecfb79cf877"
+  },
+  {
+   "id": "a01",
+   "section": "ATL Marketing Communication",
+   "text": "The Syngenta VANIVA nematicide deck scans which two competitors?",
+   "options": [
+    "Corteva's Novixid and Novlect",
+    "Bayer's Nativo and Syngenta's Amistar",
+    "BASF's Sefina and Bayer's Movento Energy",
+    "Bayer's Velum Prime and Corteva's Salibro"
+   ],
+   "marks": 2,
+   "h": "ddf2549694afb4e38a2e82dd311e288d98a69551ba4b1a8234bcca46cd8cf408"
+  },
+  {
+   "id": "a02",
+   "section": "ATL Marketing Communication",
+   "text": "The Safex soybean herbicide Veto takes its name from which idea, as explained in the positioning deck?",
+   "options": [
+    "A rhino-like mascot called Veto",
+    "A Sanskrit word for vigorous growth",
+    "An acronym of its two active ingredients",
+    "The political \"veto\" power held by nations such as USA, UK, Russia, China and France"
+   ],
+   "marks": 2,
+   "h": "738fc92e2d43374b31743c88923a5a62180a51b67c10140e6b4a770f25e17ad6"
+  },
+  {
+   "id": "a03",
+   "section": "ATL Marketing Communication",
+   "text": "FMC's rice herbicide Keenali (\"first new mode of action in 30 years\") uses which sportsperson as its brand personality archetype?",
+   "options": [
+    "Neeraj Chopra",
+    "MS Dhoni",
+    "Sachin Tendulkar",
+    "Jasprit Bumrah"
+   ],
+   "marks": 2,
+   "h": "5e50c72d9ac2880e4f04198f2372da80067f34321d9b6f23c5dbde58be66977b"
+  },
+  {
+   "id": "a04",
+   "section": "ATL Marketing Communication",
+   "text": "Parijat's BPH insecticide MOYO rides on which viral trend?",
+   "options": [
+    "\"Bachpan ka pyaar\"",
+    "\"Kacha Badam\"",
+    "\"Pawri ho rahi hai\"",
+    "\"Moye Moye\" (song by Teya Dora)"
+   ],
+   "marks": 2,
+   "h": "8bd7cc03fb8a0d535547be542c6736c90aa734f94fbfb387df6f17f3aabb90e1"
+  },
+  {
+   "id": "a05",
+   "section": "ATL Marketing Communication",
+   "text": "What is the core positioning logic of Tata Rallis Benzilla against competitors?",
+   "options": [
+    "Spray preventively before BPH appears, like competitors",
+    "Wait until BPH is actually visible, then strike (\"दिखते ही गोली मारो\")",
+    "Use it as a seed treatment before sowing",
+    "Spray on a fixed 15-day calendar"
+   ],
+   "marks": 2,
+   "h": "d58e95fc0ddb4c465334fdf92e3e863dc3e200d6d93500f33607f5018c3621a9"
+  },
+  {
+   "id": "a06",
+   "section": "ATL Marketing Communication",
+   "text": "Which animal is the mascot of Crystal's herbicide Amora (\"तेज़ तर्रार वार, हारे सब खरपतवार\")?",
+   "options": [
+    "Rhinoceros",
+    "Tiger",
+    "Elephant",
+    "Lion"
+   ],
+   "marks": 2,
+   "h": "e69f482ee402fe0757204b1b2b914e5336b63a8cc48a2777a98b3c3210ff4c27"
+  },
+  {
+   "id": "a07",
+   "section": "ATL Marketing Communication",
+   "text": "The Tata Rallis TAQAT fungicide campaign is built around which big idea?",
+   "options": [
+    "\"कल को जी लो\"",
+    "\"जान जाओगे, मान जाओगे\"",
+    "\"Taqat ka Tilak Lagaya Kya?\" - the first spray as a ritual",
+    "\"बोला ना, हो जाएगा\""
+   ],
+   "marks": 2,
+   "h": "02650854e1b2b0197243d0a2234c1cf738797a0bf885ece99e2ddd2630bd7d29"
+  },
+  {
+   "id": "a08",
+   "section": "ATL Marketing Communication",
+   "text": "The SIKOSA herbicide (mascot SIBOT) is described as powered by which technology?",
+   "options": [
+    "PLINAZOLIN technology",
+    "TYMIRIUM technology",
+    "Banyan technology",
+    "Quad Force technology"
+   ],
+   "marks": 2,
+   "h": "bee5b77c89198bb2dbd0e3687f759b0bdfd01c86784e73000d243d04308f03a1"
+  },
+  {
+   "id": "a09",
+   "section": "ATL Marketing Communication",
+   "text": "The Shakti Pumps strategic outreach deck anchors its solar pump communication on which government scheme?",
+   "options": [
+    "PM Fasal Bima Yojana",
+    "PM-KUSUM",
+    "PM-KISAN",
+    "Soil Health Card scheme"
+   ],
+   "marks": 2,
+   "h": "cb0c6bf21b54351c1f6df8d372e1974251d23e8262a27495dca61261fefde964"
+  },
+  {
+   "id": "a10",
+   "section": "ATL Marketing Communication",
+   "text": "The Shaktiman brand positioning deck (fertilizer broadcaster, mini round baler) is prepared for entry into which market?",
+   "options": [
+    "Nepal",
+    "Bangladesh",
+    "Kenya",
+    "Sri Lanka"
+   ],
+   "marks": 2,
+   "h": "8765052e30617b6d29bace934dbbbd19b621bba74635197b72cc6d04df4ffdf7"
+  },
+  {
+   "id": "a11",
+   "section": "ATL Marketing Communication",
+   "text": "The soybean herbicide Armaldo's brand persona (\"Mein Hoon Naa\", \"Bola Naa Ho Jayega\") is modelled on which cricketer?",
+   "options": [
+    "Jasprit Bumrah",
+    "MS Dhoni",
+    "Rohit Sharma",
+    "Virat Kohli"
+   ],
+   "marks": 2,
+   "h": "3acf80218aa5dd8ba3edbd5632f944dbc1e941a1e7b3a3c1d7c8d25fd5618e45"
+  },
+  {
+   "id": "a12",
+   "section": "ATL Marketing Communication",
+   "text": "Tremisia, the fungicide with Fluindapyr + Flutriafol positioned as the \"North Star of fungicides\", belongs to which company?",
+   "options": [
+    "Syngenta",
+    "Bayer",
+    "BASF",
+    "FMC"
+   ],
+   "marks": 2,
+   "h": "977144fdd255027abaebd41da4e798fdfd73cfdf64b476f9102466ad6d4203c4"
+  },
+  {
+   "id": "a13",
+   "section": "ATL Marketing Communication",
+   "text": "In the Bayer Seminis six-hybrid communication deck, which product is the tomato hybrid (\"टमाटर जो कीर्तिमान रच दे\")?",
+   "options": [
+    "Amogha",
+    "Malini",
+    "Yadhavi",
+    "Kirtiman"
+   ],
+   "marks": 2,
+   "h": "b8b6901ba720c95ffb58df2a51ba1c044f6572a5cbaf974e924efd06629e1bff"
+  },
+  {
+   "id": "b01",
+   "section": "BTL Activation",
+   "text": "In the Syngenta Chess \"Engageful Van\" lock campaign, what share of the 4-digit codes distributed in an area are actually valid?",
+   "options": [
+    "50%",
+    "5%",
+    "10%",
+    "25%"
+   ],
+   "marks": 2,
+   "h": "b7b5c201480a9f2386778893b5fc60862ece675122ebd9babe95823e43d4b192"
+  },
+  {
+   "id": "b02",
+   "section": "BTL Activation",
+   "text": "UPL Amicus (soybean pre-emergent herbicide) BTL activation uses which theme?",
+   "options": [
+    "\"Time Travel Machine\" - dry field today, green field tomorrow",
+    "\"Suraksha Ki Pathshala\" - a village school",
+    "\"Virat Panchayat\" - an open farmer assembly",
+    "\"Amicus ki Adaalat\" - a courtroom where weeds are put on trial"
+   ],
+   "marks": 2,
+   "h": "5e7fca8a1e2faf3af12bdf107ee00f01e9e30b10d262267da168ae8c79748e72"
+  },
+  {
+   "id": "b03",
+   "section": "BTL Activation",
+   "text": "The Corteva Rinskor (Novixid and Novlect) van campaign is built around which concept?",
+   "options": [
+    "A boxing ring to punch the \"Blast\"",
+    "A karaoke stage",
+    "A wedding Sehra of victory",
+    "A Time Travel Machine van with three photo cabins"
+   ],
+   "marks": 2,
+   "h": "7fae6fbb84c2a55a4dba84c1bf55dfbdde2f34b906b8cfa0aefafe11fa72328c"
+  },
+  {
+   "id": "b04",
+   "section": "BTL Activation",
+   "text": "The BASF \"Suraksha Hamesha / Suraksha Ki Pathshala\" safety campaign teaches farmers how many crucial steps, from purchase to post-spray care?",
+   "options": [
+    "7",
+    "9",
+    "5",
+    "12"
+   ],
+   "marks": 2,
+   "h": "fa50d01f3a1091c46dd10ce0b248a7aec35eb9cb4f0f6b2106e625efa1318d8b"
+  },
+  {
+   "id": "b05",
+   "section": "BTL Activation",
+   "text": "In the Apollo Virat Panchayat deck, what does ATOM stand for?",
+   "options": [
+    "Apollo Tractor Owner's Meet",
+    "Apollo Territory Operations Model",
+    "Agri Tyre On-ground Marketing",
+    "Apollo Tyre Outreach Mission"
+   ],
+   "marks": 2,
+   "h": "c719ba0b58f636bbd94bdf225d92aa7759ab083aaf4701b9f1d964bebbd2df3d"
+  },
+  {
+   "id": "b06",
+   "section": "BTL Activation",
+   "text": "The Solis-Yanmar campaigns are built on the numbers \"5 and 500\". What do they stand for?",
+   "options": [
+    "5 HP extra power and 500 kg lift capacity",
+    "5 states and 500 villages covered",
+    "5 tractor models and 500 dealers",
+    "5-year warranty and 500-hour service interval"
+   ],
+   "marks": 2,
+   "h": "0e7362808210aa13278302c5be42446e3e7e519ec69469389189badd60bec691"
+  },
+  {
+   "id": "b07",
+   "section": "BTL Activation",
+   "text": "The Awkira herbicide roadshow (\"Pehno Jeet Ka Sehra\", 480 villages in MP) uses which motif throughout?",
+   "options": [
+    "A groom's Sehra (garland of victory)",
+    "A tilak on the forehead",
+    "A cricket trophy",
+    "A champion's medal"
+   ],
+   "marks": 2,
+   "h": "a91428addf63e0b2bf1588a4595ba4ee830816faf8f489972dd321107d84c2f3"
+  },
+  {
+   "id": "b08",
+   "section": "BTL Activation",
+   "text": "The Eicher Bharosa campaign (\"Jiyo Plus Zindagi\", against Tata 11095 CNG) is built entirely around which symbol?",
+   "options": [
+    "A star",
+    "A shield",
+    "A tick mark",
+    "A plus (+) sign"
+   ],
+   "marks": 2,
+   "h": "851a7af6657f1d2218aec96366eca3272175bd9db37519d353002dc99d4b80e8"
+  },
+  {
+   "id": "b09",
+   "section": "BTL Activation",
+   "text": "According to the Swaraj activation decks, Swaraj, India's first indigenous tractor, was established in which year?",
+   "options": [
+    "1982",
+    "1974",
+    "1964",
+    "1915"
+   ],
+   "marks": 2,
+   "h": "2b06e105ee875667bef61d24afbfa1dae1b2250df472191993bfd316cb2b8228"
+  },
+  {
+   "id": "b10",
+   "section": "BTL Activation",
+   "text": "The Maruti Suzuki Arena new Swift BTL activation (\"Swiftly Shifting Sing\") is centred on which format?",
+   "options": [
+    "A karaoke session",
+    "A car rally",
+    "A cooking contest",
+    "A cricket tournament"
+   ],
+   "marks": 2,
+   "h": "5a8640a98ac73b88fa458376a415913c5f92bb153a36360e2c8a92c4c1c3d636"
+  },
+  {
+   "id": "b11",
+   "section": "BTL Activation",
+   "text": "The Ampere EV two-wheeler festival campaign places scooters at garba pandals. Which festival is it timed around?",
+   "options": [
+    "Diwali",
+    "Holi",
+    "Onam",
+    "Navratri"
+   ],
+   "marks": 2,
+   "h": "a5724db3cb9bef98c39acc5da0a6e3ceacfa04ef5d06c3a8d254c7921dc0e927"
+  },
+  {
+   "id": "b12",
+   "section": "BTL Activation",
+   "text": "The Indofil Alecto and Ceasemite activation (\"खेती से खुश हूँ\", chilli belt) targets which states?",
+   "options": [
+    "Punjab and Haryana",
+    "Gujarat and Maharashtra",
+    "Andhra Pradesh and Telangana",
+    "Madhya Pradesh and Chhattisgarh"
+   ],
+   "marks": 2,
+   "h": "cf446c1cd5dedd188d8e336ef63e798263bfad71a3574c49e1d69055863d49d3"
+  },
+  {
+   "id": "b13",
+   "section": "BTL Activation",
+   "text": "The Momiji pre-emergence herbicide campaign (\"मोमीजी झुकेगा नहीं, ___ उठेगा नहीं\") targets which weed?",
+   "options": [
+    "Mandusi (Phalaris minor)",
+    "Motha (nutsedge)",
+    "Doob grass",
+    "Parthenium (gajar ghas)"
+   ],
+   "marks": 2,
+   "h": "4da05864d9d8f27a974349abd2b77d3614986795b60dbc1d654c39154fe8490d"
+  },
+  {
+   "id": "b14",
+   "section": "BTL Activation",
+   "text": "Which engagement idea belongs to the HDFC Bank Xpressway activation (\"Don't go to bank, go digital\")?",
+   "options": [
+    "\"Break the queue\" - promoters form a fake queue; whoever asks is taken to the front",
+    "\"Retread Relay Race\" - assemble a tyre model",
+    "\"Tissue ka issue\" - squeeze water from soaked tissue tablets",
+    "\"Grip ka Champion\" - cricket bat with a slippery handle"
+   ],
+   "marks": 2,
+   "h": "7124a2d9fc76bc3ef4f2afa934d783c39f9ae914f6b9aae6271af84900b131d1"
+  },
+  {
+   "id": "b15",
+   "section": "BTL Activation",
+   "text": "In the MSIL (Maruti Suzuki) BTL agency empanelment deck for Madhya Pradesh, RTS gives its registered head office as which city?",
+   "options": [
+    "Mumbai",
+    "Bhopal",
+    "Indore",
+    "Delhi"
+   ],
+   "marks": 2,
+   "h": "b653ece8fb20f513f5056099a6d3dd0ca45b4d992a743455fa77d99c10c14e61"
+  },
+  {
+   "id": "b16",
+   "section": "BTL Activation",
+   "text": "The Allied Blenders ICONiQ White whisky activation (Mumbai, Thane, Raigad, Palghar) is built around what engagement?",
+   "options": [
+    "A bartender cocktail-mixing challenge",
+    "A karaoke parody contest",
+    "An IQ test using optical-illusion pictures, answered via QR",
+    "A dartboard with purchase-to-play"
+   ],
+   "marks": 2,
+   "h": "06e6a931bbf0211938d32c8138a70b49bcfac7d449e324d8c41d6cf1e8ab5637"
+  },
+  {
+   "id": "d01",
+   "section": "Digital & Event",
+   "text": "What monthly retainer fee does the Safex \"Marketing Through Digital\" proposal quote (minimum 6 months)?",
+   "options": [
+    "Rs 65,000",
+    "Rs 1,50,000",
+    "Rs 1,00,000",
+    "Rs 40,000"
+   ],
+   "marks": 2,
+   "h": "8d9b0781a5d0ee98a1de70b4f529d0f3aa5c40829abad6c3d045a72c8adf8851"
+  },
+  {
+   "id": "d02",
+   "section": "Digital & Event",
+   "text": "In the BASF Nunhems and Pan Seeds digital plans, \"Hybrid Hacks\" is:",
+   "options": [
+    "The Friday YouTube Shorts series in the weekly content hub",
+    "A WhatsApp broadcast series",
+    "The monthly livestream (that one is Krishi Manch LIVE)",
+    "The national influencer tier"
+   ],
+   "marks": 2,
+   "h": "55e1e7e16dd94b7541bfa0716f215b637c4d312f4f9556e9ae535b0742209a2d"
+  },
+  {
+   "id": "d03",
+   "section": "Digital & Event",
+   "text": "The Faircent P2P lending campaign aims to acquire lenders investing at least how much?",
+   "options": [
+    "Rs 5,000",
+    "Rs 1,00,000",
+    "Rs 10,000",
+    "Rs 25,000"
+   ],
+   "marks": 2,
+   "h": "728f1575bc5e7bbb4f7212351484feaf2c7743dbc025bce2b1d0181fec61b840"
+  },
+  {
+   "id": "d04",
+   "section": "Digital & Event",
+   "text": "The Crystal Crop national marketing meet concept (\"हर रिश्ता ख़ास है\") addresses which core problem?",
+   "options": [
+    "High attrition in the sales team",
+    "Declining product quality complaints",
+    "Over-emphasis on dealers and distributors, with no direct relationship with farmers",
+    "Weak digital presence versus competitors"
+   ],
+   "marks": 2,
+   "h": "676aa1c08e56233378c688527f1cb7a0311ad71a4d1b590a998ae6ffb3d7d5a0"
+  },
+  {
+   "id": "d05",
+   "section": "Digital & Event",
+   "text": "What is the name of the Growero Technologies launch event (tagline \"let's rise together\")?",
+   "options": [
+    "Sankalp",
+    "Pragati",
+    "Udaan",
+    "Abhyuday"
+   ],
+   "marks": 2,
+   "h": "de3939f5f89ef2052a9d09bff8c70e0a3e63780ee776639f173b9817a863e0f4"
+  },
+  {
+   "id": "g01",
+   "section": "Marketing Activation & GTM",
+   "text": "In the JU Agri AYAKA go-to-market plan, what do the top 5 dealers by sales over 6 months win?",
+   "options": [
+    "A gold coin",
+    "An in-store digital display",
+    "A foreign trip",
+    "A bike or scooty"
+   ],
+   "marks": 2,
+   "h": "0126e58a9708a828d3df49967c1146e43a66278b0957383eabcf6214f4bc9837"
+  },
+  {
+   "id": "g02",
+   "section": "Marketing Activation & GTM",
+   "text": "The Apollo Tyres rural pitch routes \"Khelo Lambi Paari\" and \"Har Maidaan Ka Champion\" leverage which celebrity association?",
+   "options": [
+    "MS Dhoni",
+    "Sachin Tendulkar",
+    "Virat Kohli",
+    "Kapil Dev"
+   ],
+   "marks": 2,
+   "h": "57a89fe307fbe2c797b0c4e631460af0e10123fbcd4de31d24c7b57feff1dbe0"
+  },
+  {
+   "id": "g03",
+   "section": "Marketing Activation & GTM",
+   "text": "Bioseed 6001 (\"हर परिस्थिति में फिट, 6001 सुपरहिट\") is a hybrid seed of which crop?",
+   "options": [
+    "Paddy",
+    "Maize",
+    "Cotton",
+    "Wheat"
+   ],
+   "marks": 2,
+   "h": "68de9b5624c5f23e4f65e259e7c0f6cdebe905a2bbd2de7c1af7bf49e8afdc89"
+  },
+  {
+   "id": "g04",
+   "section": "Marketing Activation & GTM",
+   "text": "Parijat's herbicide Vostrix launch uses which theme (finger on lips, masks, \"चुप चैंपियन\")?",
+   "options": [
+    "\"Jeet Ka Sehra\" - the groom's garland",
+    "\"Bolti Band\" - silence",
+    "\"Adaalat\" - a courtroom",
+    "\"Pathshala\" - a village school"
+   ],
+   "marks": 2,
+   "h": "581054588fab01a7b89bd435507a7128e8e637f80c2ff815e409deded3515f21"
+  },
+  {
+   "id": "p01",
+   "section": "PPT Design",
+   "text": "The Apollo VIRAT PLUS FAB deck (Steel Breaker, puncture-free farming) estimates the total cost of one front-tyre puncture to a farmer at about:",
+   "options": [
+    "Rs 5,000",
+    "Rs 500",
+    "Rs 1,100",
+    "Rs 2,200"
+   ],
+   "marks": 2,
+   "h": "3c4914ca8885fdcdadb84761eab445d5eb06b7e78eda3a4b4637b3c04fad9ee9"
+  },
+  {
+   "id": "p02",
+   "section": "PPT Design",
+   "text": "ADAMA's BAZAK (\"A Story of Value Innovation\") is a rice insecticide developed against which pest?",
+   "options": [
+    "Pink bollworm",
+    "Brown Plant Hopper",
+    "Fall armyworm",
+    "Stem borer"
+   ],
+   "marks": 2,
+   "h": "fb9e9e0eaf7e67f746c6c5d95fe4839af460355c658803bf2a7d9fd06e02cb1e"
+  },
+  {
+   "id": "s01",
+   "section": "Scripts",
+   "text": "In the Atul AMSAC video script, who or what is \"Kita Singh\"?",
+   "options": [
+    "The dealer who recommends AMSAC",
+    "The drummer who hosts the show",
+    "The farmer hero who discovers AMSAC",
+    "The undefeated insect champion whom AMSAC defeats in a wrestling ring"
+   ],
+   "marks": 2,
+   "h": "94ab4dbae4d1eb4075a32153ab067c70bb8b1219a8d71fd2994c8bdc564a5078"
+  },
+  {
+   "id": "s02",
+   "section": "Scripts",
+   "text": "According to the Bayer Seminis Abhilash nukkad natak scripts, the Abhilash tomato gives its first harvest how many days after sowing?",
+   "options": [
+    "45 to 50 days",
+    "110 to 115 days",
+    "65 to 70 days",
+    "90 to 100 days"
+   ],
+   "marks": 2,
+   "h": "1bc85a3d205cb94189c170217dd14613950168d96dd69b6fd79d88993cc3b9cd"
+  },
+  {
+   "id": "s03",
+   "section": "Scripts",
+   "text": "Aroma, Bublin and Polygun, whose AV scripts end with \"सफायर से खेती, सही खेती\", are products of which company?",
+   "options": [
+    "Bharat Certis",
+    "Sapphire Crop Science",
+    "Parijat",
+    "Atul"
+   ],
+   "marks": 2,
+   "h": "41f4ac0d1b81d0fc7d546f8d5cf3ed90fa103246421007f77a6d42f0b6bf50f1"
   }
  ]
 }

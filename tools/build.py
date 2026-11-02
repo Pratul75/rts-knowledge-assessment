@@ -3,7 +3,7 @@ from questions_source.json (private, git-ignored).
 Usage: python3 tools/build.py <passphrase>
 Requires: pip install cryptography
 """
-import json, hashlib, secrets, base64, sys
+import json, hashlib, secrets, base64, sys, random
 from pathlib import Path
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
@@ -16,8 +16,13 @@ salt = secrets.token_hex(16)
 pub = {"title": src["title"], "duration_min": src["duration_min"], "salt": salt, "questions": []}
 key = {}
 total = 0
+rng = random.Random(src.get("shuffle_seed", 20261102))
 for q in src["questions"]:
     assert 0 <= q["answer"] < len(q["options"]), q["id"]
+    # shuffle options so correct answers spread evenly across A-D
+    order = list(range(len(q["options"]))); rng.shuffle(order)
+    q["options"] = [q["options"][i] for i in order]
+    q["answer"] = order.index(q["answer"])
     h = hashlib.sha256(f"{salt}|{q['id']}|{q['answer']}".encode()).hexdigest()
     pub["questions"].append({"id": q["id"], "section": q["section"], "text": q["text"], "options": q["options"], "marks": q["marks"], "h": h})
     key[q["id"]] = {"a": q["answer"], "src": q.get("source", "")}
@@ -33,3 +38,10 @@ ct = AESGCM(k).encrypt(iv, json.dumps(key, ensure_ascii=False).encode(), None)
 b = lambda x: base64.b64encode(x).decode()
 (root / "key.enc.json").write_text(json.dumps({"salt": b(ksalt), "iv": b(iv), "iter": iters, "ct": b(ct)}))
 print(f"built {len(ids)} questions, {total} marks, duration {src['duration_min']} min")
+# examiner answer key (kept OUT of the repo: written one level up)
+key_md = ["# RTS Knowledge Assessment - Examiner Answer Key", "", f"Passphrase for the examiner page: `{passphrase}`", "",
+          "| # | Section | Question | Answer | Source deck |", "|---|---|---|---|---|"]
+for i, q in enumerate(src["questions"], 1):
+    key_md.append(f"| {i} | {q['section']} | {q['text']} | **{'ABCDEF'[q['answer']]}. {q['options'][q['answer']]}** | {q.get('source','')} |")
+(root.parent / "rts-assessment-ANSWER-KEY.md").write_text("\n".join(key_md))
+print("answer key written to", root.parent / "rts-assessment-ANSWER-KEY.md")
